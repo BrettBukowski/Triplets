@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DDA387F119BD0145007C6633 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA387F019BD0145007C6633 /* OpenGL.framework */; };
 		DDB4C65B19BCF66700C0DDC5 /* TripletsView.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB4C65A19BCF66700C0DDC5 /* TripletsView.h */; };
 		DDB4C65D19BCF66700C0DDC5 /* TripletsView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB4C65C19BCF66700C0DDC5 /* TripletsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DDA387F019BD0145007C6633 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		DDB4C65519BCF66700C0DDC5 /* Triplets.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Triplets.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB4C65919BCF66700C0DDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDB4C65A19BCF66700C0DDC5 /* TripletsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TripletsView.h; sourceTree = "<group>"; };
@@ -23,6 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA387F119BD0145007C6633 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +35,7 @@
 		DDB4C64B19BCF66700C0DDC5 = {
 			isa = PBXGroup;
 			children = (
+				DDA387F019BD0145007C6633 /* OpenGL.framework */,
 				DDB4C65719BCF66700C0DDC5 /* Triplets */,
 				DDB4C65619BCF66700C0DDC5 /* Products */,
 			);
@@ -263,6 +267,7 @@
 				DDB4C66219BCF66700C0DDC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
